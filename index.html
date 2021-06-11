@@ -4,37 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3a2b433536.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Password Generator</title>
 </head>
 <body>
     <div id="main">
         <h1>Password Generator</h1>
-        <div id="display"></div>
+
         <form>
-            <fieldset>
-                <legend>Select Character Set</legend>
-                <div class="container">
-                    <label for="uppercase">Uppercase letters (A-Z)</label>
-                    <input type="checkbox" name="uppercase" id="uppercase">
-                </div>
-
-                <div class="container">
-                    <label for="numbers">Numbers (0-9)</label>
-                    <input type="checkbox" name="numbers" id="numbers">
-                </div>
-
-                <div class="container">
-                    <label for="symbols">Symbols (!, @, #, $, etc)</label>
-                    <input type="checkbox" name="symbols" id="symbols">
-                </div>
-            </fieldset>
+            <div id="display" class="container">
+                <div id="visor"></div>
+                <button id="copy">
+                    <i class="far fa-clipboard"></i>
+                    copy
+                </button>
+            </div>
+            <div class="container">
+                <label for="showpsw">Show password</label>
+                <input class="toggle" type="checkbox" name="showpsw" id="showpsw" checked>
+                
+            </div>
 
             <div class="container">
-                <label for="length">Password length</label>
-                <input type="number">
+                <label for="uppercase">Uppercase</label>
+                <input class="toggle" type="checkbox" name="uppercase" id="uppercase">
+                
             </div>
-            <button id="copy"></button>
+
+            <div class="container">
+                <label for="lowercase">Lowercase</label>
+                <input class="toggle" type="checkbox" name="lowercase" id="lowercase">
+                
+            </div>
+
+            <div class="container">
+                <label for="numbers">Numbers</label>
+                <input class="toggle" type="checkbox" name="numbers" id="numbers">
+                
+            </div>
+
+            <div class="container">
+                <label for="symbols">Symbols</label>
+                <input class="toggle" type="checkbox" name="symbols" id="symbols">
+                
+            </div>
+
+            <div class="container">
+                <label for="length">Length</label>
+                <input type="number" maxlength="3" min="1" max='100' name="length" id="length">
+                
+            </div>
+            
+            <button id="generate" type="submit">GENERATE</button>
         </form>
     </div>
 
