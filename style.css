@@ -39,7 +39,6 @@ form {
 
 h1 {
     padding: 2rem;
-    margin-bottom: 1rem;
     text-shadow: 1px 1px black;
 }
 
@@ -58,9 +57,12 @@ button {
     border-radius: 1rem;
 }
 
+/* ----- Password display -----*/
+
 #display {
-    height: 5rem;
-    padding: 0;
+    height: 6rem;
+    padding: 0px;
+    margin-bottom: 2rem;
     background-color: #121416;
     border: 1px solid white;
 }
@@ -68,6 +70,8 @@ button {
 #visor {
     padding: 1rem;
 }
+
+/* ----- Toggle buttons -----*/
 
 .toggle,
 #length {
@@ -111,11 +115,12 @@ button {
     transform: translateX(-100%);
 }
 
-/* OPTIONAL EFFECT */
+/* toggle button becomes wider when is pressed*/
 .toggle:active::after {
     width: 2.8rem;
 }
 
+/* ----- removes the arrows of the input (type number) ----- */
 
 /* Chrome, Safari, Edge, Opera */
 #length::-webkit-outer-spin-button,
@@ -137,6 +142,10 @@ button {
     background-color: #222629;
     color: #86c232;
     font-weight: bold;
+}
+
+#length::placeholder {
+    color: #86c232;
 }
 
 /* --------BUTTONS--------*/
@@ -161,20 +170,15 @@ button:active {
 }
 
 #copy {
-    width: 4rem;
-    height: 4rem;
-    padding: 1rem;
-    font-size: 1rem;
-    font-weight: bold;
+    width: 6rem;
+    height: 100%;
     border: none;
-    border-radius: .5rem;
-    justify-content: center;
+    border-radius: 0 1rem 1rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    right: .4rem;
+    
 }
 
 #copy:active {
@@ -182,7 +186,7 @@ button:active {
 }
 
 #copy > i {
-    font-size: 2rem;
+    font-size: 3.2rem;
 }
 
 
