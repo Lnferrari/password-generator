@@ -67,3 +67,7 @@ form.addEventListener('click', (e)=>{
             break;
     }
 })
+
+window.addEventListener('load', ()=>{
+    length.value = '20'
+})
