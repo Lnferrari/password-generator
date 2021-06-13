@@ -13,10 +13,13 @@
         <h1>Password Generator</h1>
 
         <form>
+            <!-- Password Display -->
             <div id="display" class="container">
                 <input type="text" id="visor" readonly></input>
                 <i id="copy" class="far fa-clipboard"></i>
             </div>
+
+            <!-- Menu options with toggle buttons -->
             <div class="container">
                 <label for="showpsw">Show password</label>
                 <input class="toggle" type="checkbox" name="showpsw" id="showpsw" checked>
@@ -53,10 +56,12 @@
                 
             </div>
             
+            <!-- Password generator button-->
             <button id="generate" type="submit">GENERATE</button>
         </form>
     </div>
 
+    <!-- script -->
     <script src="./app.js"></script>
 </body>
 </html>
