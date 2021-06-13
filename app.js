@@ -4,17 +4,16 @@ const digitsOpt = '0123456789';
 const symbolsOpt = '!@§$%&/()=?#,;.:-_';
 
 // HTML Elements -----------
-const form = document.querySelector('form')
-const visor = document.getElementById('visor');
-const buttons = document.querySelectorAll('button')
-const btnCopy = document.getElementById('copy')
-const btnGenerate = document.getElementById('generate')
-const showPsw = document.getElementById('showpsw')
-const upperC = document.getElementById('uppercase')
-const lowerC = document.getElementById('lowercase')
-const numbers = document.getElementById('numbers')
-const symbols = document.getElementById('symbols')
-const length = document.getElementById('length')
+let form = document.querySelector('form')
+let visor = document.getElementById('visor');
+let btnCopy = document.getElementById('copy')
+let btnGenerate = document.getElementById('generate')
+let showPsw = document.getElementById('showpsw')
+let upperC = document.getElementById('uppercase')
+let lowerC = document.getElementById('lowercase')
+let numbers = document.getElementById('numbers')
+let symbols = document.getElementById('symbols')
+let length = document.getElementById('length')
 
 // Functions -----------
 randomPicker = x => x[Math.floor(Math.random() * x.length)];
@@ -22,7 +21,6 @@ randomPicker = x => x[Math.floor(Math.random() * x.length)];
 copyText = text => {
     text.select();
     document.execCommand("copy");
-    console.log(document.execCommand("copy"));
 }
 
 generatePassword = length => {
@@ -45,21 +43,27 @@ generatePassword = length => {
 }
 
 // Events -----------
-btnCopy.addEventListener('click', (e)=>{
-    e.preventDefault();
-    console.log(e.target);
-    copyText(visor.textContent);
-})
-
-btnGenerate.addEventListener('click', (e)=>{
-    e.preventDefault();
-    visor.value = generatePassword(length);
-})
-
-showPsw.addEventListener('click', ()=>{
-    if(showPsw.checked){
-        visor.setAttribute('type', 'text')
-    } else {
-        visor.setAttribute('type', 'password')
+form.addEventListener('click', (e)=>{
+    if(e.target.id === 'copy' || e.target.id === 'generate'){
+        e.preventDefault();
     }
-});
+    switch (e.target.id) {
+        case 'copy':
+            copyText(e.target.previousElementSibling);
+            e.target.className = 'fas fa-check';
+            setTimeout(()=>{
+                e.target.className = 'far fa-clipboard'
+            }, 1000)
+            break;
+        case 'generate':
+            visor.value = generatePassword(length);
+            break;
+        case 'showpsw':
+            if(showPsw.checked){
+                visor.setAttribute('type', 'text')
+            } else {
+                visor.setAttribute('type', 'password')
+            };
+            break;
+    }
+})
