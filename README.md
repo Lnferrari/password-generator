@@ -1,7 +1,7 @@
 # Password Generator
 
 ## exercise given in class to practice DOM manipulation.
-## The instructions for the exercise are listed below but have not been strictly followed in order to give it my own imprint. 
+### The instructions for the exercise are listed below but have not been strictly followed in order to give it my own imprint. 
 
 Description:
 
