@@ -29,7 +29,6 @@ generatePassword = length => {
     let charset = lettersOpt;
     if (numbers.checked) charset += digitsOpt;
     if (symbols.checked) charset += symbolsOpt;
-
     for(let i = 0; i < length.value; i++){
         char = randomPicker(charset)
         if(upperC.checked && lowerC.checked && char.match(/[a-z]/) && (i+1) % 3 === 0){
