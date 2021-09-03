@@ -37,7 +37,7 @@
 
 <p>I built this project during the `Programming Basics` module at [DCI Institute](https://digitalcareerinstitute.org/) with the aim of practicing JavaScript and DOM manipulation.</p>
 
-![password-generator screenshot](./assets/main-screenshot.png)
+![password-generator screenshot][main-screenshot]
 
 
 ### Built With
@@ -78,9 +78,9 @@ By switching on/off the toggle buttons is possible to add/remove uppercases, low
 By clicking on the GENERATE button a random password with all the requested combinations will be created.
 The app includes a button to copy the password to the clipboard.
 
-![password-generator 1]()
-![password-generator 2]()
-![password-generator 3]()
+![password-generator screenshot][screenshot-1]
+![password-generator screenshot][screenshot-2]
+![password-generator screenshot][screenshot-3]
 
 
 
@@ -114,7 +114,7 @@ Contributions are what make the open source community such an amazing place to l
 <!-- CONTACT -->
 ## Contact
 
-Lucas Ferrari - [Linkedin](https://twitter.com/your_username) - ln.ferrari@hotmail.com
+Lucas Ferrari - [Linkedin][linkedin] - ln.ferrari@hotmail.com
 
 Project Link: [https://github.com/Lnferrari/password-generator](https://github.com/Lnferrari/password-generator)
 
@@ -124,3 +124,12 @@ Project Link: [https://github.com/Lnferrari/password-generator](https://github.c
 ## License
 
 Distributed under the MIT License.
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[main-screenshot]: ./assets/main-screenshot.png
+[screenshot-1]: ./assets/main-screenshot.png
+[screenshot-2]: ./assets/main-screenshot.png
+[screenshot-3]: ./assets/main-screenshot.png
+[linkedin]: https://www.linkedin.com/in/lucasferrari1/
