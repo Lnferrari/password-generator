@@ -129,7 +129,7 @@ Distributed under the MIT License.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [main-screenshot]: ./assets/main-screenshot.png
-[screenshot-1]: ./assets/main-screenshot.png
-[screenshot-2]: ./assets/main-screenshot.png
-[screenshot-3]: ./assets/main-screenshot.png
+[screenshot-1]: ./assets/screenshot1.png
+[screenshot-2]: ./assets/screenshot2.png
+[screenshot-3]: ./assets/screenshot3.png
 [linkedin]: https://www.linkedin.com/in/lucasferrari1/
