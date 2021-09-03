@@ -42,12 +42,16 @@
 
 ### Built With
 
-<a href="https://www.javascript.com/">
-  <img style="margin: auto;" src="https://raw.githubusercontent.com/sachinverma53121/sachinverma53121/master/icons/js.png" alt=javascript width="50" height="50"/>
+<a href="/">
+  <img style="margin: auto;" src="https://raw.githubusercontent.com/sachinverma53121/sachinverma53121/master/icons/html5.png" alt=html5 width="50" height="50"/>
 </a>
 <a href="/">
   <img style="margin: auto;" src="https://raw.githubusercontent.com/sachinverma53121/sachinverma53121/master/icons/css3.png" alt=css3 width="50" height="50"/>
 </a>
+<a href="https://www.javascript.com/">
+  <img style="margin: auto;" src="https://raw.githubusercontent.com/sachinverma53121/sachinverma53121/master/icons/js.png" alt=javascript width="50" height="50"/>
+</a>
+
 
 
 
@@ -83,7 +87,7 @@ The app includes a button to copy the password to the clipboard.
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/Lnferrari/youtube-clone/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Lnferrari/password-generator/issues) for a list of proposed features (and known issues).
 
 
 
