@@ -1,42 +1,122 @@
-# Password Generator
+<h1 align='center'>Password Generator</h1>
+</br>
+<p>Password generator application that allows you to combine different types of characters as well as select the length to create a password according to your needs.</p>
+</br>
 
-## exercise given in class to practice DOM manipulation.
-### The instructions for the exercise are listed below but have not been strictly followed in order to give it my own imprint. 
 
-Description:
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <!-- <li><a href="#usage">Usage</a></li> -->
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-- This app generates passwords.
 
-- There should be a Generate Password button which the user can click to show a new password using all letters and different characters. 
 
-- By default, the password generated should use mixed cases (both lowercase and uppercase).
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Create a password generator WebApp with the following instructions:
+<p>I built this project during the ```Programming Basics``` module at [DCI Institute](https://digitalcareerinstitute.org/) with the aim of practicing JavaScript and DOM manipulation.</p>
 
-1. Use the constant "charset" in your function (move it there). It contains all characters to use.
+![password-generator screenshot](./assets/main-screenshot.png)
 
-```javascript
-const charset = 'abcdefghijklmnopqrstuvwxyz0123456789!§$%&/()=?#,;.:-_';
-```
 
-2. Your function should have 2 arguments:
+### Built With
 
-   - length (Number) The length of the password
-   - mixedCase (Boolean) Whether or not to use mixed cases (lowercase + uppercase)
+<a href="https://www.javascript.com/">
+  <img style="margin: auto;" src="https://raw.githubusercontent.com/sachinverma53121/sachinverma53121/master/icons/js.png" alt=javascript width="50" height="50"/>
+</a>
+<a href="/">
+  <img style="margin: auto;" src="https://raw.githubusercontent.com/sachinverma53121/sachinverma53121/master/icons/css3.png" alt=css3 width="50" height="50"/>
+</a>
 
-3. If the second argument is true, use uppercase for every third character.
-4. Use the function `getRandomInt()` to generate random numbers where you need them.
-5. Register an onClick event for the button to generate a new password.
-6. Update the generated password inside of the "output" element.
-7. Generate the first password as soon as the page is loaded, using a default length of 20.
 
-Examples for generated passwords: - 876FocMkcCv98teXc(Ov - %lfXcrLt-#ke3r6R5§-? - Nd1Z\$yRx
 
-Bonus version: 
-1. Add an input field to define the length of the password. 
+<!-- GETTING STARTED -->
+## Getting Started
 
-2. Add a checkbox to define if the password should use mixed cases. 
+To get a local copy up and running follow this simple step.
 
-3. Generate a new password on change of the input elements.
 
-4. **Optional:** Free free to use Bootstrap for styling.
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Lnferrari/password-generator.git
+   ```
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+The app provides the possibility to choose certain combinations of characters to be mixed in the password
+By switching on/off the toggle buttons is possible to add/remove uppercases, lowercases, numbers and/or symbols to obtain the desired type of password. There is also the option to modify the length of it (by default the length is set to 20 characters).
+By clicking on the GENERATE button a random password with all the requested combinations will be created.
+The app includes a button to copy the password to the clipboard.
+
+![password-generator 1]()
+![password-generator 2]()
+![password-generator 3]()
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/Lnferrari/youtube-clone/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* [GitHub Pages](https://pages.github.com)
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Lucas Ferrari - [Linkedin](https://twitter.com/your_username) - ln.ferrari@hotmail.com
+
+Project Link: [https://github.com/Lnferrari/password-generator](https://github.com/Lnferrari/password-generator)
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License.
