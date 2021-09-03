@@ -116,7 +116,7 @@ Contributions are what make the open source community such an amazing place to l
 
 Lucas Ferrari - [Linkedin][linkedin] - ln.ferrari@hotmail.com
 
-Project Link: [https://github.com/Lnferrari/password-generator](https://github.com/Lnferrari/password-generator)
+Project Link: [Password-generator][project-link]
 
 
 
@@ -133,3 +133,4 @@ Distributed under the MIT License.
 [screenshot-2]: ./assets/screenshot2.png
 [screenshot-3]: ./assets/screenshot3.png
 [linkedin]: https://www.linkedin.com/in/lucasferrari1/
+[project-link]: https://lnferrari.github.io/password-generator/
