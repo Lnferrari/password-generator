@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p>I built this project during the ```Programming Basics``` module at [DCI Institute](https://digitalcareerinstitute.org/) with the aim of practicing JavaScript and DOM manipulation.</p>
+<p>I built this project during the `Programming Basics` module at [DCI Institute](https://digitalcareerinstitute.org/) with the aim of practicing JavaScript and DOM manipulation.</p>
 
 ![password-generator screenshot](./assets/main-screenshot.png)
 
