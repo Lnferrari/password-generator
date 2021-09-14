@@ -65,7 +65,7 @@ To get a local copy up and running follow this simple step.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Lnferrari/password-generator.git
+   git clone git@github.com:Lnferrari/password-generator.git
    ```
 
 
